@@ -1,7 +1,7 @@
 # repo_public
 Public repository
 
-ある会社のコーディングテストで制作した簡易的なブログアプリです。
+ある会社のコーディングテストで制作した簡易的なブログアプリです。  
 環境はDockerのredhat PHP ubiイメージと、postgresqlイメージを利用してdocker-composeで構築しました。
 
 ### 1. コンテナ作成
