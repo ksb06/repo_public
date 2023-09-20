@@ -1,0 +1,4 @@
+
+env/psql-data/*
+src/.composer
+src/.npm
