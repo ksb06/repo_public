@@ -7,7 +7,8 @@ RUN dnf install -y composer
 
 RUN chown 1001:0 /var/run
 
-RUN cd /tmp ; composer create-project laravel/laravel:^8.0 /tmp/src
+# RUN cd /tmp ; composer create-project laravel/laravel:^8.0 /tmp/src
+COPY /src /tmp/src
 RUN chown -R 1001:0 /tmp/src
 
 RUN /usr/libexec/s2i/assemble

@@ -2,3 +2,4 @@
 env/psql-data/*
 src/.composer
 src/.npm
+src/.bash_history

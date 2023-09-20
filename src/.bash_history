@@ -13,3 +13,5 @@ who
 exit
 ls -la
 exit
+ls
+exit

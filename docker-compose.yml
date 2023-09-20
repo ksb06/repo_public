@@ -6,14 +6,12 @@ services:
             - POSTGRES_PASSWORD=test
         volumes:
             - ./env/psql-data:/var/lib/postgresql/data
-        ports:
-            - "5433:5432"
         restart: always
     cording-test-ap:
         container_name: cording-test-ap
         build: .
-        volumes:
-            - ./src:/opt/app-root/src:z
+        # volumes:
+        #     - ./src:/opt/app-root/src:z
         ports:
             - "80:8080"
         depends_on:
